@@ -1,0 +1,30 @@
+1) express.json();
+    express.json() is a method inbuilt in express to recognize the incoming Request Object 
+    as a JSON Object.
+    This method is called as a middleware in your application using
+    the code: app.use(express.json());
+
+2) diffrence between app=express() and router=express.router();
+  -> express() handles server connection, routes, middleware,
+   implementation of pages (HTML && CSS to be directed to a route) 
+   and communication with databases (like SQL) while our routers
+   only handle routes just like a person on the street would give a tourist
+    directions to where they want to go.
+
+3) what is cors(cross origin resourse sharing) ?
+-> 
+    cors is security mecanism to restrict other hosts to access data 
+    from our hostx
+    cors policy restrict ports to communicate with each other hence to
+let thesse ports to communicate  
+
+4) We use default port number for react-app which is 3000 to change go to package.json
+and give port=portnumber there
+
+5) useEffect Hook in reactjs
+-> useEffect is hook when we want to perform somthing when the page is rendered
+useEffect(()=>{
+
+},[]//until this array remanins same useeffect do not run);
+
+6) notistack-> it has many inbuilt snackbars,toast,alert flags
